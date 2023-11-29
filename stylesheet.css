@@ -1,0 +1,184 @@
+/*Whole page*/
+html{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: #050a24;
+    margin: 0;
+}
+.forepage{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+}
+header{
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #050a24;
+    border: 1px solid white;
+}
+.menu-button{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+
+}
+footer{
+    grid-area: ("footer");
+    height: 150px;
+    background-color: rgb(63, 63, 63);
+    margin-left: 0;
+    margin-right: 0;
+}
+/*Hero images stuff*/
+
+    #heroimage{
+    grid-area: ("heroimage");
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("Pictures/blues_performance.jpg");
+    height: 500px;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }
+    #buytickets{
+        grid-area: ("buytickets");
+        background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("Pictures/ticket-booth.jpg");
+        height: 500px;
+        margin: 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    #bookevents{
+        grid-area: ("bookevents");
+        background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("Pictures/muddy.jpg");
+        height: 500px;
+        margin: 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    #bookevents2{
+        grid-area:("bookevents2");
+        background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("Pictures/Musicians.jpg");
+        height: 500px;
+        margin: 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+#aboutpic{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("Pictures/Musicians.jpg");
+    height: 500px;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/*Hero Header stuff*/
+.hero_header{
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    position: relative;
+    top: 50%;
+    padding:25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.hero_button{
+    font-size: 1.2em;
+    background-color: orangered;
+    color:white;
+    border: none;
+    width: 180px;
+}
+
+    /*navbar*/
+    nav{
+        display: none;
+        overflow: hidden;
+        z-index: 1;
+        transition: 1s;
+        flex-direction: row;
+        margin-bottom: 35px;
+        margin-right: 25px;
+        width: 100%;
+    }
+    #navbar{
+        grid-area: ("navbar");
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 25px;
+
+    }
+    button{
+        height: 80px;
+        width: 160px;
+    }
+    .navbutton{
+        border: 1px solid white;
+        background-color: #050a24;
+        color: white;
+
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-left: none;
+    }
+    .navbutton:hover{
+        transition: 0.3s;
+        background-color: orangered;
+        color: #050a24;
+    }
+/*information box + picture*/
+.infobox{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("Pictures/club-exterior.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    background-color: black;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.info{
+    background-color: rgba(3, 4, 9, 0.6);
+    color: white;
+    font-size: 1.1em;;
+    padding: 25px;
+
+    position:relative;
+    top: 25%;
+    }
+#homepage{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.event{
+
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    margin-bottom: 50px;
+}
+.event-button{
+    background-color: orangered;
+}
